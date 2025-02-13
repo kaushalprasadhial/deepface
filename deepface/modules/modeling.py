@@ -86,7 +86,7 @@ def build_model(task: str, model_name: str) -> Any:
             "centerface": CenterFace.CenterFaceClient,
         },
     }
-
+    print(f"task {task} model_name {model_name}")
     if models.get(task) is None:
         raise ValueError(f"unimplemented task - {task}")
 
@@ -95,6 +95,7 @@ def build_model(task: str, model_name: str) -> Any:
 
     if cached_models[task].get(model_name) is None:
         model = models[task].get(model_name)
+        print(f"model {model}")
         if model:
             cached_models[task][model_name] = model()
         else:
