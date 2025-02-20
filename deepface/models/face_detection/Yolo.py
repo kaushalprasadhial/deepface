@@ -91,7 +91,7 @@ class YoloDetectorClient(Detector):
             # Extract the bounding box and the confidence
             x, y, w, h = result.boxes.xywh.tolist()[0]
             confidence = result.boxes.conf.tolist()[0]
-
+            print(f"x {x}, y {y}, w {w}, h {h}, confidence {confidence}")
             right_eye = None
             left_eye = None
 
