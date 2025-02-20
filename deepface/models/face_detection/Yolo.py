@@ -81,7 +81,7 @@ class YoloDetectorClient(Detector):
             show=False,
             conf=float(os.getenv("YOLO_MIN_DETECTION_CONFIDENCE", "0.25")),
         )[0]
-
+        print(f"len(results) {len(results)}")
         # For each face, extract the bounding box, the landmarks and confidence
         for result in results:
 
