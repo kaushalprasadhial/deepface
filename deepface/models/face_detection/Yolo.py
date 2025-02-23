@@ -28,7 +28,7 @@ WEIGHT_NAMES = ["yolov8n-face.pt",
                 "yolov11m-face.pt"]
 
 # Google Drive URL from repo (https://github.com/derronqi/yolov8-face) ~6MB
-WEIGHT_URLS = ["https://drive.google.com/uc?id=1qJSbngPidGQ8ctit7YBiN5YzFGK5nDKN",
+WEIGHT_URLS = ["https://drive.google.com/uc?id=19Ev80V1J38rvxDk3ayiS6bxao2DC_S40",
                "https://github.com/akanametov/yolo-face/releases/download/v0.0.0/yolov11n-face.pt",
                "https://github.com/akanametov/yolo-face/releases/download/v0.0.0/yolov11s-face.pt",
                "https://github.com/akanametov/yolo-face/releases/download/v0.0.0/yolov11m-face.pt"]
